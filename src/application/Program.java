@@ -44,6 +44,16 @@ public class Program {
 		//seller.setName("AVA MAX");   //altera o nome do objeto em memória
 		//sellerDao.update(seller);
 		//System.out.println("update completed");
+		
+		System.out.println("===TEST 6: seller Delete===");
+		sellerDao.deleteById(9);
+		System.out.println("delete completed");
+		
+
+		
+		
+		
+		
 	}
 
 }
