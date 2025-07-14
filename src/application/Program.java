@@ -39,7 +39,11 @@ public class Program {
 		//sellerDao.insert(newSeller);
 		//System.out.println("Inserted "+ newSeller.getId());
 		
-		
+		//System.out.println("===TEST 5: seller Update===");
+		//seller = sellerDao.findById(10);
+		//seller.setName("AVA MAX");   //altera o nome do objeto em memória
+		//sellerDao.update(seller);
+		//System.out.println("update completed");
 	}
 
 }
